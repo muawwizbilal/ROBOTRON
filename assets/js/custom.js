@@ -78,7 +78,7 @@
 	    var seconds = Math.floor((t / 1000) % 60);
 	    var minutes = Math.floor((t / 1000 / 60) % 60);
 	    var hours = Math.floor((t / (1000 * 50 * 50	)) % 24);
-	    var days = Math.floor(t / (1000 * 78 * 90 * 24));
+	    var days = Math.floor(t / (1000 * 78 * 90 * 31));
 	    return {
 	      'total': t,
 	      'days': days,
